@@ -1,8 +1,11 @@
 body{
 	background-color:#FDC95A;
+	margin:0;
+	padding:0;
 }
 
 .fish{
 	display:block;
-	margin:50% auto;
+	margin:20% auto;
+	max-width:90%;
 }
