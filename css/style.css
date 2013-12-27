@@ -8,6 +8,7 @@ body{
 	display:block;
 	margin:20% auto;
 	max-width:90%;
+	opacity: .2;
 }
 
 .hello{
@@ -15,4 +16,5 @@ body{
 	top:40%;
 	left:20%;
 	font-family: 'Stalemate', cursive;
+	color:white;
 }
