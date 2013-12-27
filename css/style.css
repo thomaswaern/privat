@@ -1,11 +1,36 @@
 body{
 	background-color:#FDC95A;
 	margin:0;
-	padding:0;
+	padding:10%;
+	font-family: 'Vollkorn', serif;
+	font-size:16px;
+	line-height:24px;
+}
+
+h1{
+	color:white;
+	font-size:40px;
+}
+
+p{
+	margin-bottom:1.2em;
+}
+
+@media all and (min-width: 768px){
+	div{
+		margin:0 10%;
+		font-size:30px;
+		line-height:37px;
+	}
+}
+
+.end{
+	font-size:35px;
+	color:white;
 }
 
 .fish{
 	display:block;
-	margin:20% auto;
+	margin:10% auto;
 	max-width:90%;
 }
