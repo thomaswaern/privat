@@ -9,3 +9,10 @@ body{
 	margin:20% auto;
 	max-width:90%;
 }
+
+.hello{
+	position: absolute;
+	top:40%;
+	left:20%;
+	font-family: 'Stalemate', cursive;
+}
