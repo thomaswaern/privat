@@ -10,11 +10,3 @@ body{
 	max-width:90%;
 	opacity: .2;
 }
-
-.hello{
-	position: absolute;
-	top:40%;
-	left:20%;
-	font-family: 'Stalemate', cursive;
-	color:white;
-}
