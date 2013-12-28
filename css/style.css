@@ -13,16 +13,9 @@ h1{
 }
 
 p{
-	margin-bottom:1.2em;
+	margin-bottom:.4em;
 }
 
-@media all and (min-width: 768px){
-	div{
-		margin:0 10%;
-		font-size:30px;
-		line-height:37px;
-	}
-}
 
 .end{
 	font-size:35px;
