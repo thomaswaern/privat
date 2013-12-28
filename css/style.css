@@ -52,7 +52,8 @@ dl dd dl{
 
 article{
 	max-width:550px;
-	margin: 0 auto;
+	margin: 0 auto 1.2em;
+	border-bottom:1px dashed Tomato;
 }
 
 article a{
@@ -79,7 +80,6 @@ article p{
 }
 
 .end{
-	font-size:35px;
 	color:Tomato;
 }
 
