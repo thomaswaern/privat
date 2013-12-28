@@ -1,29 +1,91 @@
 body{
-	background-color:#FDC95A;
+	background-color:#fdfdfd;
+	color:#585844;
 	margin:0;
 	padding:10%;
 	font-family: 'Vollkorn', serif;
-	font-size:16px;
+	font-size:18px;
 	line-height:24px;
 }
 
 h1{
-	color:white;
-	font-size:40px;
+	font-size:45px;
 }
 
-p{
-	margin-bottom:.4em;
+h2{
+	font-size:30px;
 }
 
+.social{
+	list-style-type: none;
+	padding:0;
+	margin:0 0 1em;
+}
+
+.social li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+.social li:before {
+    content: "• ";
+    color: Tomato; /* or whatever color you prefer */
+    font-size:30px;
+    vertical-align: text-bottom;
+}
+
+dl dt{
+	font-size:20px;
+	line-height:30px;
+	font-weight:bold;
+	color:Tomato;
+}
+
+dl dd{
+	margin:0 0 1em;
+}
+
+dl dd dl{
+	border-left:3px solid Tomato;
+	padding-left:1em;
+}
+
+article{
+	max-width:550px;
+	margin: 0 auto;
+}
+
+article a{
+	color:black;
+	text-decoration: underline;
+}
+
+article a:hover{
+	color:Tomato;
+}
+
+noscript{
+	font-style: italic;
+}
+
+article img{
+	border-radius:50%;
+	width:130px;
+
+}
+
+article p{
+	margin:0 0 1.2em;
+}
 
 .end{
 	font-size:35px;
-	color:white;
+	color:Tomato;
 }
 
 .fish{
 	display:block;
 	margin:10% auto;
 	max-width:90%;
+	display:none;
 }
