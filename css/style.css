@@ -82,6 +82,10 @@ article p{
 
 .end{
 	color:Tomato;
+	display:block;
+	text-align: center;
+	font-size:2em;
+	padding:0.2em 0;
 }
 
 .fish{
